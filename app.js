@@ -7,7 +7,6 @@ app.use(cors());
 app.use(express.json());
 
 const users = [];
-
 const tweets = [];
 
 app.post("/sign-up", (req, res) => {
